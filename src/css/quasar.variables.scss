@@ -1,0 +1,92 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+
+$primary: #1976d2;
+$secondary: #26a69a;
+$accent: #9c27b0;
+$dark: rgb(150, 150, 150);
+$positive: #21ba45;
+$negative: rgb(200, 50, 50);
+$info: rgb(220, 210, 195);
+$warning: rgb(255, 225, 85);
+
+/* 自訂字型 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+$family-sans-serif: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+
+/* 自訂標準色 */
+$mumu01: rgb(95, 60, 30);
+$mumu02: rgb(250, 170, 0);
+
+/* 自訂輔助色 */
+$mu01: rgb(175, 130, 100);
+$mu02: rgba(255, 225, 85, 0.6);
+$mu03: rgb(220, 210, 195);
+$mu04: rgb(240, 240, 230);
+$mu05: rgb(200, 200, 200);
+$mu06: rgb(150, 150, 150);
+$mu07: rgb(200, 50, 50);
+$mu08: rgb(245, 245, 240);
+$mu09: rgb(255, 240, 145);
+$mu10: rgba(95, 60, 30, 0.25);
+$mu11: rgb(175, 130, 100, 0.75);
+
+/* 字體大小的級數 */
+$s0: 0.4rem;
+$s1: 0.6rem;
+$s2: 0.8rem;
+$s3: 1rem;
+$s4: 1.2rem;
+$s5: 1.4rem;
+$s6: 1.6rem;
+$s7: 1.8rem;
+$s8: 2rem;
+
+/* 設定斷點 */
+$breakpoint-xs: 575px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+@mixin xs {
+  @media (max-width: $breakpoint-xs) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media (min-width: $breakpoint-sm) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: $breakpoint-md) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: $breakpoint-lg) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: $breakpoint-xl) {
+    @content;
+  }
+}

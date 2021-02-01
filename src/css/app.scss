@@ -1,0 +1,2951 @@
+// app global css in SCSS form
+
+* {
+  font-family: '微軟正黑體';
+  color: $mumu01;
+}
+
+element.style {
+  padding-top: 0;
+}
+
+.container-50 {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+}
+
+.container-80 {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+.container-back100 {
+  width: 100%;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* width、height */
+.w-25 {
+  width: 25% !important;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+.w-50 {
+  width: 50% !important;
+}
+
+.w-75 {
+  width: 75% !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.w-auto {
+  width: auto !important;
+}
+
+.h-25 {
+  height: 25% !important;
+}
+
+.h-50 {
+  height: 50% !important;
+}
+
+.h-75 {
+  height: 75% !important;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.h-auto {
+  height: auto !important;
+}
+
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+.pb-0 {
+  padding-bottom: 0%;
+}
+
+.mt-3 {
+  margin-top: 3%;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-148 {
+  margin-top: 149px;
+}
+
+.q-tab-panel {
+  padding: 0 !important;
+}
+
+/* 自訂標準色 */
+.bg-mumu01 {
+  background: $mumu01;
+}
+
+.text-mumu01 {
+  color: $mumu01;
+}
+
+.bg-mumu02 {
+  background: $mumu02;
+}
+
+.text-mumu02 {
+  color: $mumu02;
+}
+
+/* 自訂輔助色 */
+.bg-mu01 {
+  background: $mu01;
+}
+
+.text-mu01 {
+  color: $mu01;
+}
+
+.bg-mu02 {
+  background: $mu02;
+}
+
+.text-mu02 {
+  color: $mu02;
+}
+
+.bg-mu03 {
+  background: $mu03;
+}
+
+.text-mu03 {
+  color: $mu03;
+}
+
+.bg-mu04 {
+  background: $mu04;
+}
+
+.text-mu04 {
+  color: $mu04;
+}
+
+.bg-mu05 {
+  background: $mu05;
+}
+
+.text-mu05 {
+  color: $mu05;
+}
+
+.bg-mu06 {
+  background: $mu06;
+}
+
+.text-mu06 {
+  color: $mu06;
+}
+
+.bg-mu07 {
+  background: $mu07;
+}
+
+.text-mu07 {
+  color: $mu07;
+}
+
+.bg-mu08 {
+  background: $mu08;
+}
+
+.bg-mu09 {
+  background: $mu09;
+}
+
+.bg-mu10 {
+  background: $mu10;
+}
+
+.bg-mu11 {
+  background: $mu11;
+}
+
+/* container RWD */
+.container {
+  transition: 1s;
+  @include xs {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    margin-top: 3%;
+  }
+
+  @include sm {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    margin-top: 2.75%;
+  }
+
+  @include md {
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    margin-top: 2.5%;
+  }
+
+  @include lg {
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    margin-top: 2.25%;
+  }
+
+  @include xl {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    margin-top: 2%;
+  }
+}
+
+.containerM {
+  transition: 1s;
+  @include xs {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    margin-top: 3%;
+  }
+
+  @include sm {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    margin-top: 2.75%;
+  }
+
+  @include md {
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    margin-top: 2.5%;
+  }
+
+  @include lg {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    margin-top: 2.25%;
+  }
+
+  @include xl {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    margin-top: 2%;
+  }
+}
+
+/* alert */
+.q-notification i {
+  color: white;
+}
+
+.q-notification__message {
+  color: white;
+  font-size: $s3;
+  font-weight: 600;
+}
+
+/* App.vue */
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+#q-app,
+#appHeader .q-header,
+#index,
+#appHeader,
+#news,
+#about,
+#member,
+#donate,
+#share,
+#donation {
+  background: url('../assets/bg-02.jpg') !important;
+}
+
+/* Index.vue */
+#index .mainCarousel {
+  transition: 1s;
+  padding-bottom: $s8 !important;
+  @include xs {
+    width: 100%;
+    margin: auto;
+  }
+
+  @include sm {
+    width: 100%;
+    margin: auto;
+  }
+
+  @include md {
+    width: 100%;
+    margin: auto;
+  }
+
+  @include lg {
+    width: 100%;
+    margin: auto;
+  }
+
+  @include xl {
+    width: 70%;
+    margin: auto;
+  }
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+  .slick-dots {
+    display: none;
+  }
+}
+
+#index .q-page-container:nth-child(2).counter {
+  margin-top: 0 !important;
+  padding: 0 !important;
+  .count {
+    @include xs {
+      width: 100px;
+      padding: 5 0px;
+    }
+
+    @include sm {
+      width: 100px;
+      padding: 5 0px;
+    }
+
+    @include md {
+      width: 120px;
+      padding: 5 0px;
+    }
+
+    @include lg {
+      width: 120px;
+      padding: 0 5px;
+    }
+
+    @include xl {
+      width: 120px;
+      padding: 0 5px;
+    }
+
+    i {
+      font-size: $s3;
+    }
+    div {
+      font-size: $s8;
+      color: $mu07;
+      font-weight: bolder;
+    }
+  }
+  .border {
+    @include xs {
+      border-top: 1.5px solid $mu03;
+      border-left: none;
+      border-bottom: 1.5px solid $mu03;
+      border-right: none;
+    }
+
+    @include sm {
+      border-top: none;
+      border-left: 1.5px solid $mu03;
+      border-bottom: none;
+      border-right: 1.5px solid $mu03;
+    }
+
+    @include md {
+      border-top: none;
+      border-left: 1.5px solid $mu03;
+      border-bottom: none;
+      border-right: 1.5px solid $mu03;
+    }
+
+    @include lg {
+      border-top: none;
+      border-left: 1.5px solid $mu03;
+      border-bottom: none;
+      border-right: 1.5px solid $mu03;
+    }
+
+    @include xl {
+      border-top: none;
+      border-left: 1.5px solid $mu03;
+      border-bottom: none;
+      border-right: 1.5px solid $mu03;
+    }
+  }
+}
+
+#index .q-page-container:nth-child(3) {
+  margin-top: 0;
+  padding-top: 0 !important;
+  padding-bottom: $s1 !important;
+  .maintitle {
+    font-weight: 900;
+    color: rgba(220, 210, 195, 0.3);
+
+    position: absolute;
+    transition: 0.5s;
+    @include xs {
+      font-size: 4rem;
+    }
+
+    @include sm {
+      font-size: 5rem;
+    }
+
+    @include md {
+      font-size: 6rem;
+    }
+
+    @include lg {
+      font-size: 7rem;
+    }
+
+    @include xl {
+      font-size: 7rem;
+    }
+  }
+  .row {
+    @include xs {
+      padding-top: 4rem;
+    }
+
+    @include sm {
+      padding-top: 5rem;
+    }
+
+    @include md {
+      padding-top: 6rem;
+    }
+
+    @include lg {
+      padding-top: 7.5rem;
+    }
+
+    @include xl {
+      padding-top: 7.5rem;
+    }
+  }
+}
+
+#index .q-page-container:nth-child(4) {
+  margin-top: 0;
+  padding-top: 0 !important;
+  padding-bottom: $s1 !important;
+  .maintitle {
+    font-weight: 900;
+    color: rgba(220, 210, 195, 0.3);
+    position: absolute;
+    transition: 0.5s;
+    @include xs {
+      font-size: 4rem;
+      right: 12% !important;
+    }
+
+    @include sm {
+      font-size: 5.5rem;
+      right: 13% !important;
+    }
+
+    @include md {
+      font-size: 6rem;
+      right: 14% !important;
+    }
+
+    @include lg {
+      font-size: 7rem;
+      right: 15% !important;
+    }
+
+    @include xl {
+      font-size: 7rem;
+      right: 15% !important;
+    }
+  }
+  .row {
+    @include xs {
+      padding-top: 4rem;
+    }
+
+    @include sm {
+      padding-top: 5.5rem;
+    }
+
+    @include md {
+      padding-top: 6rem;
+    }
+
+    @include lg {
+      padding-top: 7.5rem;
+    }
+
+    @include xl {
+      padding-top: 7.5rem;
+    }
+  }
+}
+
+#index .q-page-container:nth-child(5) {
+  margin-top: 0;
+  padding-top: 0 !important;
+  padding-bottom: $s1 !important;
+  .maintitle {
+    font-weight: 900;
+    color: rgba(220, 210, 195, 0.3);
+    position: absolute;
+    transition: 0.5s;
+    @include xs {
+      font-size: 4rem;
+    }
+
+    @include sm {
+      font-size: 5rem;
+    }
+
+    @include md {
+      font-size: 6rem;
+    }
+
+    @include lg {
+      font-size: 7rem;
+    }
+
+    @include xl {
+      font-size: 7rem;
+    }
+  }
+  .SM,
+  .MD,
+  .LG {
+    @include xs {
+      padding-top: 4rem;
+    }
+
+    @include sm {
+      padding-top: 5.5rem;
+    }
+
+    @include md {
+      padding-top: 6rem;
+    }
+
+    @include lg {
+      padding-top: 7.5rem;
+    }
+
+    @include xl {
+      padding-top: 7.5rem;
+    }
+  }
+
+  @include xs {
+    .SM {
+      display: block;
+    }
+    .MD {
+      display: none;
+    }
+    .LG {
+      display: none;
+    }
+  }
+
+  @include sm {
+    .SM {
+      display: block;
+    }
+    .MD {
+      display: none;
+    }
+    .LG {
+      display: none;
+    }
+  }
+
+  @include md {
+    .SM {
+      display: none;
+    }
+    .MD {
+      display: block;
+    }
+    .LG {
+      display: none;
+    }
+  }
+
+  @include lg {
+    .SM {
+      display: none;
+    }
+    .MD {
+      display: none;
+    }
+    .LG {
+      display: block;
+    }
+  }
+
+  @include xl {
+    .SM {
+      display: none;
+    }
+    .MD {
+      display: none;
+    }
+    .LG {
+      display: block;
+    }
+  }
+
+  .Dcard {
+    cursor: pointer;
+  }
+
+  .q-img {
+    border: 10px solid white;
+    background: white;
+    border-radius: 5px;
+  }
+
+  .itemSM {
+    @include xs {
+      font-size: 0.9rem !important;
+    }
+
+    @include sm {
+      font-size: 0.9rem !important;
+    }
+
+    @include md {
+      font-size: 0.9rem !important;
+    }
+
+    @include lg {
+      font-size: $s3 !important;
+      letter-spacing: 1px;
+    }
+
+    @include xl {
+      font-size: $s3 !important;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+#index .q-page-container:nth-child(6) {
+  margin-top: 0;
+  padding-top: 0 !important;
+  padding-bottom: 10rem !important;
+  .maintitle {
+    font-weight: 900;
+    color: rgba(220, 210, 195, 0.3);
+    position: absolute;
+    transition: 0.5s;
+    @include xs {
+      font-size: 4rem;
+      right: 12% !important;
+    }
+
+    @include sm {
+      font-size: 5rem;
+      right: 13% !important;
+    }
+
+    @include md {
+      font-size: 6rem;
+      right: 14% !important;
+    }
+
+    @include lg {
+      font-size: 7rem;
+      right: 15% !important;
+    }
+
+    @include xl {
+      font-size: 7rem;
+      right: 15% !important;
+    }
+  }
+  .SM,
+  .MD,
+  .LG {
+    @include xs {
+      padding-top: 4rem;
+    }
+
+    @include sm {
+      padding-top: 5.5rem;
+    }
+
+    @include md {
+      padding-top: 6rem;
+    }
+
+    @include lg {
+      padding-top: 7.5rem;
+    }
+
+    @include xl {
+      padding-top: 7.5rem;
+    }
+  }
+
+  @include xs {
+    .SM {
+      display: block;
+    }
+    .MD {
+      display: none;
+    }
+    .LG {
+      display: none;
+    }
+  }
+
+  @include sm {
+    .SM {
+      display: block;
+    }
+    .MD {
+      display: none;
+    }
+    .LG {
+      display: none;
+    }
+  }
+
+  @include md {
+    .SM {
+      display: none;
+    }
+    .MD {
+      display: block;
+    }
+    .LG {
+      display: none;
+    }
+  }
+
+  @include lg {
+    .SM {
+      display: none;
+    }
+    .MD {
+      display: none;
+    }
+    .LG {
+      display: block;
+    }
+  }
+
+  @include xl {
+    .SM {
+      display: none;
+    }
+    .MD {
+      display: none;
+    }
+    .LG {
+      display: block;
+    }
+  }
+
+  .Dcard {
+    cursor: pointer;
+  }
+
+  .itemSM {
+    @include xs {
+      font-size: 0.9rem !important;
+    }
+
+    @include sm {
+      font-size: 0.9rem !important;
+    }
+
+    @include md {
+      font-size: 0.9rem !important;
+    }
+
+    @include lg {
+      font-size: $s3 !important;
+      letter-spacing: 1px;
+    }
+
+    @include xl {
+      font-size: $s3 !important;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+/* News.vue */
+#news .q-page-container:nth-child(1) {
+  margin-top: 0;
+
+  padding-bottom: $s1 !important;
+  .maintitle {
+    font-weight: 900;
+    color: rgba(220, 210, 195, 0.3);
+    position: absolute;
+    transition: 0.5s;
+    @include xs {
+      font-size: 4rem;
+    }
+
+    @include sm {
+      font-size: 5rem;
+    }
+
+    @include md {
+      font-size: 6rem;
+    }
+
+    @include lg {
+      font-size: 7rem;
+    }
+
+    @include xl {
+      font-size: 7rem;
+    }
+  }
+  .row {
+    @include xs {
+      padding-top: 4.5rem;
+    }
+
+    @include sm {
+      padding-top: 5.5rem;
+    }
+
+    @include md {
+      padding-top: 6rem;
+    }
+
+    @include lg {
+      padding-top: 7.5rem;
+    }
+
+    @include xl {
+      padding-top: 7.5rem;
+    }
+  }
+}
+
+#news .q-page-container:nth-child(2) {
+  margin-top: 0;
+  padding-top: 0 !important;
+  padding-bottom: 10% !important;
+  .maintitle {
+    font-weight: 900;
+    color: rgba(220, 210, 195, 0.3);
+    position: absolute;
+    transition: 0.5s;
+    @include xs {
+      font-size: 4rem;
+      right: 10% !important;
+    }
+
+    @include sm {
+      font-size: 5rem;
+      right: 10% !important;
+    }
+
+    @include md {
+      font-size: 6rem;
+      right: 12.5% !important;
+    }
+
+    @include lg {
+      font-size: 7rem;
+      right: 15% !important;
+    }
+
+    @include xl {
+      font-size: 7rem;
+      right: 15% !important;
+    }
+  }
+  .row {
+    @include xs {
+      padding-top: 3.5rem;
+    }
+
+    @include sm {
+      padding-top: 4.5rem;
+    }
+
+    @include md {
+      padding-top: 5.5rem;
+    }
+
+    @include lg {
+      padding-top: 6.5rem;
+    }
+
+    @include xl {
+      padding-top: 6.5rem;
+    }
+  }
+}
+
+#news .new-news {
+  .q-img__content {
+    .subtitle {
+      height: 100%;
+      color: white;
+      position: absolute;
+      top: 100%;
+    }
+  }
+
+  .q-img__content > div {
+    background: none;
+  }
+
+  .q-img__content:hover {
+    .subtitle {
+      background: rgba(95, 60, 30, 0.8);
+      position: absolute;
+      top: 0;
+      transition: 0.8s;
+    }
+  }
+
+  .q-card__section {
+    background: $mu03;
+    a {
+      font-size: $s3;
+      font-weight: 800;
+      text-decoration: none;
+    }
+  }
+}
+
+#news .new-campaign {
+  margin-top: 0;
+  padding-top: 0 !important;
+  .q-img__content {
+    .subtitle {
+      height: 100%;
+      color: white;
+      position: absolute;
+      top: 100%;
+    }
+  }
+
+  .q-img__content > div {
+    background: none;
+  }
+
+  .q-img__content:hover {
+    .subtitle {
+      background: rgba(95, 60, 30, 0.75);
+      position: absolute;
+      top: 0;
+      transition: 0.8s;
+    }
+  }
+
+  .q-card__section {
+    background: $mu03;
+    a {
+      font-size: $s3;
+      font-weight: 800;
+    }
+  }
+}
+
+/* Donate.vue */
+#donate .basket {
+  padding: 5px;
+  position: fixed;
+  z-index: 10;
+  right: 2.5%;
+  bottom: 10%;
+  // background: $mumu01;
+  background: $mu03;
+  width: 50px;
+  height: 50px;
+  .q-btn__content {
+    position: absolute;
+    top: 12.5px;
+    left: 13px;
+    .q-badge {
+      position: absolute;
+      top: -15px;
+      right: -15px;
+    }
+  }
+}
+
+.my-menu-link {
+  color: white;
+  background: $mu03;
+}
+
+#donate .list {
+  @include xs {
+    padding-right: 0;
+  }
+
+  @include sm {
+    padding-right: $s3;
+  }
+
+  @include md {
+    padding-right: $s3;
+  }
+
+  @include lg {
+    padding-right: $s3;
+  }
+
+  @include xl {
+    padding-right: $s3;
+  }
+}
+
+#donate .list {
+  font-size: $s3;
+  padding: 0 $s5;
+
+  .q-item__section.q-item__section--main {
+    width: 40px;
+    max-width: 50px;
+  }
+}
+
+#donate #card {
+  .q-tab-panels {
+    background: none;
+    .q-card {
+      background: none;
+      .q-card__section {
+        padding-bottom: 0;
+        .q-img {
+          border: 10px solid white;
+          background: white;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(165, 160, 145, 0.25);
+        }
+      }
+    }
+  }
+}
+
+#donate .q-card {
+  box-shadow: none;
+  filter: drop-shadow(0, 0, 0.5, 0.5);
+
+  .card_btn {
+    width: 100%;
+    // .q-img__image {
+    //   border-radius: 5px;
+    // }
+    .q-card__section {
+      width: 100%;
+    }
+    .q-btn__wrapper:before {
+      box-shadow: none;
+    }
+  }
+}
+
+#donate #card {
+  .q-card__section {
+    padding: 0 $s1;
+  }
+
+  .required {
+    font-style: $s3;
+    color: $mu06;
+  }
+
+  .title {
+    font-size: $s4;
+    font-weight: 700;
+  }
+
+  .q-btn {
+    margin: auto;
+    .q-btn__content {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+/* Donation.vue */
+#donation {
+  .q-breadcrumbs a {
+    color: $mumu02;
+  }
+  .col-12:first-child {
+    // border: $mu03 3px solid;
+    text-align: center;
+    .q-img {
+      max-width: 400px;
+      max-height: 400px;
+      background: white;
+      border: 10px solid white;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(165, 160, 145, 0.25);
+    }
+  }
+  .col-12:last-child {
+    // border: $mu03 3px solid;
+    p:nth-child(1) {
+      font-size: $s4;
+      font-weight: 800;
+    }
+    p:nth-child(2) {
+      font-size: $s3;
+    }
+    p:nth-child(3) {
+      font-size: $s3;
+    }
+    p:nth-child(4) {
+      font-size: $s3;
+    }
+    p:nth-child(5) {
+      font-size: $s3;
+    }
+    p:nth-child(6) {
+      font-size: $s3;
+    }
+  }
+
+  .q-btn {
+    width: 160px;
+  }
+}
+
+/* Share.vue */
+#share .basket {
+  padding: 5px;
+  position: fixed;
+  z-index: 10;
+  right: 2.5%;
+  bottom: 10%;
+  background: $mu03;
+  width: 50px;
+  height: 50px;
+  .q-btn__content {
+    position: absolute;
+    top: 12.5px;
+    left: 13px;
+    .q-badge {
+      position: absolute;
+      top: -15px;
+      right: -15px;
+    }
+  }
+}
+
+.my-menu-link {
+  color: white;
+  background: $mu03;
+}
+
+#share .list {
+  @include xs {
+    padding-right: 0;
+  }
+
+  @include sm {
+    padding-right: $s3;
+  }
+
+  @include md {
+    padding-right: $s3;
+  }
+
+  @include lg {
+    padding-right: $s3;
+  }
+
+  @include xl {
+    padding-right: $s3;
+  }
+}
+
+#share .list {
+  font-size: $s3;
+  padding: 0 $s5;
+
+  .q-item__section.q-item__section--main {
+    width: 40px;
+    max-width: 50px;
+  }
+}
+
+#share #card {
+  .q-tab-panels {
+    background: none;
+    .q-card {
+      background: none;
+      .q-card__section {
+        padding-bottom: 0;
+      }
+    }
+  }
+}
+
+#share .q-card {
+  box-shadow: none;
+  filter: drop-shadow(0, 0, 0.5, 0.5);
+  .card_btn {
+    width: 100%;
+    .q-img__image {
+      border-radius: 5px;
+    }
+    .q-card__section {
+      width: 100%;
+    }
+    .q-btn__wrapper:before {
+      box-shadow: none;
+    }
+  }
+}
+
+#share #card {
+  .q-card__section {
+    padding: $s1;
+  }
+
+  .required {
+    font-style: $s3;
+    color: $mu06;
+  }
+
+  .title {
+    font-size: $s4;
+    font-weight: 700;
+  }
+
+  .q-btn {
+    margin: auto;
+    .q-btn__content {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+/* Shares.vue */
+#shares {
+  .q-breadcrumbs a {
+    color: $mumu02;
+  }
+  .col-12:first-child {
+    text-align: center;
+    .q-img {
+      max-width: 400px;
+      max-height: 400px;
+      background: white;
+
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(165, 160, 145, 0.25);
+    }
+  }
+  .col-12:last-child {
+    p:nth-child(1) {
+      font-size: $s4;
+      font-weight: 800;
+    }
+    p:nth-child(2) {
+      font-size: $s3;
+    }
+    p:nth-child(3) {
+      font-size: $s3;
+    }
+    p:nth-child(4) {
+      font-size: $s3;
+    }
+    p:nth-child(5) {
+      font-size: $s3;
+    }
+    p:nth-child(6) {
+      font-size: $s3;
+    }
+  }
+
+  .q-btn {
+    width: 160px;
+  }
+}
+
+/* About.vue */
+#about .row {
+  text-align: center;
+  .col-12 {
+    font-size: 0;
+  }
+  .col-md-6 {
+    font-size: 0;
+  }
+}
+
+.about_title {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .intro {
+    padding: 10%;
+    height: 100%;
+  }
+
+  span {
+    font-size: $s6;
+    font-weight: 700;
+  }
+
+  p {
+    margin-top: 15px;
+    font-size: $s3;
+  }
+}
+
+#about .q-timeline__heading-title {
+  text-align: left !important;
+  font-weight: 900;
+  color: rgba(220, 210, 195, 0.5);
+  position: relative;
+  top: 0;
+  left: -175px;
+  @include xs {
+    font-size: 3rem !important;
+    left: -17%;
+  }
+
+  @include sm {
+    font-size: 4rem !important;
+    left: -16%;
+  }
+
+  @include md {
+    font-size: 5rem !important;
+    left: -16%;
+  }
+
+  @include lg {
+    font-size: 6rem !important;
+    left: -19%;
+  }
+
+  @include xl {
+    font-size: 6rem !important;
+    left: -31%;
+  }
+}
+
+#about .q-timeline__heading {
+  text-align: center;
+  padding-bottom: $s3;
+
+  h3 {
+    font-size: $s6;
+    font-weight: 800;
+    display: inline;
+  }
+}
+
+#about {
+  .introPic {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  .introText {
+    @include xs {
+      padding-left: 120px;
+    }
+
+    @include sm {
+      padding-left: 110px;
+    }
+
+    @include md {
+      padding-left: 90px;
+    }
+
+    @include lg {
+      padding-left: 60px;
+    }
+
+    @include xl {
+      padding-left: 20px;
+    }
+  }
+
+  .q-timeline__entry:nth-child(2),
+  .q-timeline__entry:nth-child(3),
+  .q-timeline__entry:nth-child(4),
+  .q-timeline__entry:nth-child(5),
+  .q-timeline__entry:nth-child(6) {
+    height: 100%;
+
+    font-size: 0.9rem;
+    line-height: $s6;
+    letter-spacing: 0.75px;
+  }
+}
+
+.about_pic {
+  position: relative;
+}
+
+.back_picL {
+  top: 0;
+  transform: translateY(5%);
+}
+
+.back_picR {
+  top: 0;
+  transform: translateY(5%);
+}
+
+.fluidBack {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#about .q-page-container:first-child {
+  padding-bottom: 60px !important;
+}
+
+#about .q-page-container:last-child {
+  padding-top: 0 !important;
+}
+
+@include xs {
+  #about {
+    .about_title {
+      order: 1;
+    }
+    .about_pic {
+      order: 2;
+    }
+  }
+}
+
+@include sm {
+  #about {
+    .about_title {
+      order: 1;
+    }
+    .about_pic {
+      order: 1;
+    }
+  }
+}
+
+@include md {
+  #about {
+    .about_title {
+      order: 1;
+    }
+  }
+}
+
+@include lg {
+  #about {
+    .about_title {
+      order: 1;
+    }
+  }
+}
+
+@include xl {
+  #about {
+    .about_title {
+      order: 1;
+    }
+  }
+}
+
+/* Member.vue */
+
+#member .q-page-container {
+  .add {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    z-index: 10;
+    transition: 1s;
+
+    @include xs {
+      right: 30px;
+      bottom: 100px;
+    }
+
+    @include sm {
+      right: 40px;
+      bottom: 110px;
+    }
+
+    @include md {
+      right: 50px;
+      bottom: 120px;
+    }
+
+    @include lg {
+      right: 50px;
+      bottom: 120px;
+    }
+
+    @include xl {
+      right: 50px;
+      bottom: 120px;
+    }
+    .q-btn__wrapper {
+      background: rgb(175, 130, 100, 0.5);
+    }
+  }
+}
+
+#member .my-card {
+  .profile {
+    font-size: $s4;
+    font-weight: 800;
+  }
+  .text-subtitle {
+    font-size: 0.9rem;
+    color: $mu01;
+  }
+  .mEdit {
+    font-size: $s3;
+    padding: $s3;
+  }
+  .mEdit:last-child {
+    .q-btn {
+      font-size: $s2;
+      width: 40px;
+    }
+    .q-btn.cancel {
+      .q-btn__wrapper {
+        color: $mu07;
+        i {
+          color: $mu07;
+        }
+      }
+      .q-focus-helper {
+        color: $mu07;
+      }
+
+      .block {
+        color: $mu07;
+      }
+    }
+  }
+}
+
+#member .order {
+  .oEdit {
+    padding-bottom: 0;
+  }
+
+  .date {
+    font-size: $s2;
+    color: $mu06;
+  }
+
+  .detail {
+    .q-img {
+      width: 100px;
+      height: 100px;
+    }
+    .caption {
+      padding-top: 2px;
+      color: $mu06;
+      font-size: $s2 !important;
+    }
+  }
+  .ordNum {
+    padding: $s0 $s3;
+    font-size: 0.9rem;
+    font-weight: 800;
+    letter-spacing: 0.25px;
+    background: $mu04;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .connect {
+    padding: 0 $s2;
+    font-size: 0.9rem;
+    font-weight: 800;
+    letter-spacing: 0.25px;
+    background: $mu08;
+    .q-card {
+      line-height: 16px;
+      border: 1px solid $mu08;
+      border-radius: 10px;
+      font-weight: normal;
+      letter-spacing: 0.25px;
+      .q-card__section {
+        padding-bottom: $s2;
+      }
+    }
+  }
+  .detail {
+    padding: 0 $s2;
+    font-size: 0.9rem;
+    font-weight: 800;
+    letter-spacing: 0.25px;
+    background: $mu08;
+    border-radius: 0 0 10px 10px;
+    .q-card {
+      line-height: 16px;
+      border: 1px solid $mu08;
+      border-radius: 10px;
+      font-weight: normal;
+      letter-spacing: 0.25px;
+      .q-card__section {
+        padding-bottom: $s2;
+      }
+    }
+    .q-expansion-item__content {
+      padding-bottom: $s2;
+    }
+  }
+}
+
+#shareCard {
+  width: 100%;
+  max-width: 600px;
+}
+
+#shareCard .q-gutter-y-md {
+  margin-top: 0;
+}
+
+#shareCard.q-card {
+  border-radius: 15px;
+  background: #fff;
+  position: relative;
+  .ship {
+    padding-left: $s6;
+    div {
+      justify-content: center;
+      display: inline-block;
+    }
+    div:last-child {
+      padding-bottom: 1.5px;
+    }
+    margin-bottom: -5px;
+  }
+  .shipping {
+    font-size: 0.95rem;
+    .q-radio {
+      vertical-align: auto;
+    }
+    .q-radio__inner {
+      color: $mumu01;
+      vertical-align: middle;
+    }
+    .q-radio__label {
+      vertical-align: middle;
+    }
+  }
+}
+
+#shareCard .q-card__section:first-child {
+  color: $mumu01;
+  font-size: $s4;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background: $mu03;
+  text-align: center;
+}
+
+#shareCard .q-card__section:last-child {
+  margin-top: 0;
+  background: $mu04;
+}
+
+#shareCard {
+  width: 100%;
+  max-width: 500px;
+}
+
+#shareCard.q-card {
+  border-radius: 15px;
+  background: #fff;
+  position: relative;
+  .q-card__actions button:last-child {
+    .q-btn__wrapper {
+      color: $mu07;
+    }
+    .q-focus-helper {
+      color: $mu07;
+    }
+    .block {
+      color: $mu07;
+    }
+  }
+  .q-btn {
+    margin: 10px 6px 0;
+    width: 80px;
+    font-size: $s3;
+  }
+}
+
+#shareCard .q-card__section:first-child {
+  color: $mumu01;
+  font-size: $s4;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background: $mu03;
+  text-align: center;
+}
+
+#shareCard .q-card__section:last-child {
+  margin-top: 0;
+  background: $mu04;
+  padding: $s6;
+
+  .q-gutter-y-md {
+    margin-top: -5px;
+    padding: 0 5px;
+  }
+
+  .img-inputer {
+    width: 100%;
+    background: white;
+    border-radius: 28px;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 1%;
+  }
+}
+
+#shareCard .q-card__section:last-child {
+  margin-top: 0;
+  background: $mu04;
+}
+
+#shareCard .q-field--outlined .q-field__control {
+  padding: 0 20px;
+}
+
+#shareCard .q-field__control {
+  color: $mumu01;
+  background: white;
+}
+
+#shareCard .q-field--outlined .q-field__control:before {
+  border: none;
+}
+
+#shareCard .q-field--outlined .q-field__control:hover:before {
+  border-color: $mu05;
+}
+
+#shareCard .q-field--outlined .q-field__control::after {
+  border: none;
+}
+
+#shareCard .q-field--outlined.q-field--focused .q-field__control:after {
+  border: none;
+}
+
+/* D_Cart.vue */
+#D_Cart .q-stepper__tab {
+  .q-stepper__dot {
+    width: 48px;
+    height: 48px;
+    background: $mu03;
+
+    i {
+      font-size: 18px;
+      color: white;
+    }
+  }
+}
+
+#D_Cart .q-stepper__tab--done {
+  .q-stepper__dot {
+    background: $mu01;
+  }
+}
+
+#D_Cart .order01 {
+  font-size: $s4;
+  font-weight: 600;
+}
+
+#D_Cart .q-list {
+  .q-item {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    .row {
+      max-height: 150px;
+      .q-img {
+        width: 120px;
+        border: 10px solid white;
+        background: white;
+        border-radius: 5px;
+      }
+    }
+    p {
+      font-size: $s5;
+    }
+  }
+  .q-item__section {
+    padding-left: 8px;
+    margin: 0;
+    justify-self: start;
+    align-items: flex-start;
+    .q-item__label {
+      font-size: $s3;
+    }
+    .q-item__label--caption {
+      font-size: 0.85rem;
+    }
+
+    .q-field__marginal {
+      font-size: $s4;
+      padding-left: 0;
+    }
+
+    .q-btn .q-icon,
+    .q-btn .q-spinner {
+      font-size: $s5;
+      text-align: center;
+    }
+
+    .q-field__control:before,
+    .q-field__control:after {
+      content: none;
+    }
+
+    .q-field--standard .q-field__control:before,
+    .q-field--standard .q-field__control:after {
+      border-bottom: none;
+    }
+
+    button.count_btn {
+      .q-focus-helper {
+        color: $mu02 !important;
+      }
+
+      .q-btn__wrapper {
+        color: $mu02;
+      }
+
+      .q-btn__content i {
+        color: $mu02;
+      }
+    }
+
+    .q-btn {
+      .q-focus-helper {
+        color: $mu07;
+      }
+
+      .q-btn__wrapper {
+        color: $mu07;
+      }
+
+      .q-btn__content i {
+        color: $mu07;
+      }
+    }
+  }
+}
+
+#D_Cart .order02 {
+  font-size: $s4;
+  font-weight: 600;
+}
+
+#D_Cart form {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  .q-card__section {
+    @include xs {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
+    @include sm {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    @include md {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+
+    @include lg {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    @include xl {
+      padding-left: 36px;
+      padding-right: 36px;
+    }
+  }
+}
+
+#D_Cart form {
+  .q-field__inner {
+    padding: 0 3px;
+  }
+
+  .q-field--outlined .q-field__control {
+    padding: 0 20px;
+  }
+
+  .q-field__control {
+    color: $mumu01;
+    background: $mu08;
+  }
+
+  .q-field--outlined {
+    .q-field__control:before {
+      border: none;
+    }
+
+    .q-field__control:hover:before {
+      border-color: $mu05;
+    }
+
+    .q-field__control::after {
+      border: none;
+    }
+  }
+
+  .q-field__control:after {
+    border: none;
+  }
+
+  .q-gutter-y-md {
+    margin-top: 0;
+  }
+
+  .q-gutter-y-sm {
+    margin-top: 0px;
+    margin-bottom: -8px;
+  }
+
+  .q-checkbox {
+    font-size: $s3;
+    letter-spacing: 0;
+    font-weight: normal;
+
+    .q-checkbox__truthy {
+      color: #fff;
+    }
+  }
+}
+
+#D_Cart .order03 {
+  font-size: $s4;
+  font-weight: 600;
+}
+
+#D_Cart .q-list .bg-mu03 {
+  height: 100%;
+}
+
+#D_Cart .ordNum {
+  font-size: $s2;
+  padding: 2px 0;
+  letter-spacing: 0.25px;
+  // font-weight: 800;
+  color: $mumu01;
+}
+
+#D_Cart .date {
+  font-size: $s2;
+}
+
+#D_Cart .orderLine {
+  background: $mu02;
+}
+
+#D_Cart .detail {
+  padding: 0.1rem;
+  font-size: 0.95rem;
+}
+
+#D_Cart .detailDonation {
+  padding: 0.1rem;
+  font-size: 0.95rem;
+}
+
+/* AppHeader.vue */
+#appHeader {
+  .q-toolbar__title img {
+    margin-top: $s4;
+    margin-bottom: $s0;
+  }
+  .q-tab__label {
+    font-size: 0.95rem;
+  }
+}
+
+@include xs {
+  .btn-group-sm {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    display: block;
+    .q-btn__wrapper {
+      padding: 4px 10px;
+    }
+  }
+
+  .btn-group-lg {
+    display: none;
+  }
+}
+
+@include sm {
+  .btn-group-sm {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    display: block;
+    margin-left: -16px;
+    .q-btn__wrapper {
+      padding: 4px 13px;
+    }
+  }
+
+  .btn-group-lg {
+    display: none;
+  }
+}
+
+@include md {
+  .btn-group-sm {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    display: block;
+    margin-left: -16px;
+  }
+
+  .btn-group-lg {
+    display: none;
+  }
+}
+
+@include lg {
+  .btn-group-sm {
+    display: none;
+  }
+
+  .btn-group-lg {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    display: block;
+  }
+}
+
+@include xl {
+  .btn-group-sm {
+    display: none;
+  }
+
+  .btn-group-lg {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    display: block;
+  }
+}
+
+#loginCard {
+  width: 100%;
+  max-width: 250px;
+}
+
+#regCard {
+  width: 100%;
+  max-width: 500px;
+}
+
+#regCard .q-gutter-y-md {
+  margin-top: 0;
+}
+
+.q-card#loginCard,
+.q-card#regCard {
+  border-radius: 15px;
+  background: #fff;
+  position: relative;
+}
+
+#loginCard .q-card__section:first-child,
+#regCard .q-card__section:first-child {
+  color: $mumu01;
+  font-size: $s4;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background: $mu03;
+  text-align: center;
+}
+
+#loginCard .q-card__section:last-child,
+#regCard .q-card__section:last-child {
+  margin-top: 0;
+  background: $mu04;
+}
+
+#regCard .q-card__section:last-child {
+  .q-gutter-y-md {
+    margin-top: -5px;
+    padding: 0 5px;
+  }
+}
+
+#loginCard .q-field--outlined .q-field__control,
+#regCard .q-field--outlined .q-field__control {
+  padding: 0 20px;
+}
+
+#loginCard .q-field__control,
+#regCard .q-field__control {
+  color: $mumu01;
+  background: white;
+}
+
+#loginCard .q-field--outlined .q-field__control:before,
+#regCard .q-field--outlined .q-field__control:before {
+  border: none;
+}
+
+#loginCard .q-field--outlined .q-field__control:hover:before,
+#regCard .q-field--outlined .q-field__control:hover:before {
+  border-color: $mu05;
+}
+
+#loginCard .q-field--outlined .q-field__control::after,
+#regCard .q-field--outlined .q-field__control::after {
+  border: none;
+}
+
+#loginCard .q-field--outlined.q-field--focused .q-field__control:after,
+#regCard .q-field--outlined.q-field--focused .q-field__control:after {
+  border: none;
+}
+
+#loginCard .q-btn,
+#regCard .q-btn {
+  width: 100px;
+  height: 40px;
+}
+
+#loginCard .q-checkbox {
+  font-size: $s3;
+  letter-spacing: 0;
+  font-weight: normal;
+
+  .q-checkbox__truthy {
+    color: #fff;
+  }
+}
+
+#loginCard .q-card__actions {
+  margin-top: 0;
+}
+
+#regCard .reset {
+  .q-btn__wrapper {
+    color: $mu07;
+  }
+  .q-focus-helper {
+    color: $mu07;
+  }
+  .block {
+    color: $mu07;
+  }
+}
+
+/* AppFooter.vue */
+#footer {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $mu10;
+}
+
+#footer p {
+  margin-top: 15px;
+}
+
+#footer i {
+  font-size: $s4;
+  padding: 0 3px;
+}
+
+/* admin */
+
+/* backMainLayout */
+/* toolbar */
+#backMainLayout .q-toolbar {
+  background: $mu01;
+}
+
+.adminPagebtn {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.q-btn__wrapper:before {
+  content: '';
+  box-shadow: none;
+}
+
+/* leftDrawer */
+#backMainLayout .q-item__section {
+  font-size: $s3;
+  letter-spacing: .5px;
+}
+
+.activelink {
+  background: $mu04;
+}
+
+/* backNews */
+
+#backNews .q-page-container {
+  padding: 0 !important;
+  position: absolute;
+  top: 5%;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+
+  .add {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    z-index: 10;
+
+    @include xs {
+      right: 15px;
+      bottom: 15px;
+    }
+
+    @include sm {
+      right: 30px;
+      bottom: 30px;
+    }
+
+    @include md {
+      right: 30px;
+      bottom: 30px;
+    }
+
+    @include lg {
+      right: 50px;
+      bottom: 50px;
+    }
+
+    @include xl {
+      right: 50px;
+      bottom: 50px;
+    }
+    .q-btn__wrapper {
+      background: rgb(175, 130, 100, 0.5);
+    }
+  }
+}
+
+#backNews #title {
+  .q-item__section {
+    font-size: $s5;
+    font-weight: 700;
+  }
+  .q-item__section--side {
+    padding: 0;
+    min-width: 36px;
+  }
+}
+
+#backNews .q-table {
+  thead th {
+    font-size: $s3;
+    font-weight: bolder;
+  }
+  tbody td {
+    font-size: 0.95rem;
+  }
+}
+
+#newsCard {
+  width: 100%;
+  max-width: 600px;
+}
+
+#newsCard .q-gutter-y-md {
+  margin-top: 0;
+}
+
+#newsCard.q-card {
+  border-radius: 15px;
+  background: #fff;
+  position: relative;
+}
+
+#newsCard .q-card__section:first-child {
+  color: $mumu01;
+  font-size: $s4;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background: $mu03;
+  text-align: center;
+}
+
+#newsCard .q-card__section:last-child {
+  margin-top: 0;
+  background: $mu04;
+}
+
+/* backDonate */
+#backDonate {
+  justify-content: center;
+  @include xs {
+    padding: 1rem 2rem 3rem;
+  }
+
+  @include sm {
+    padding: 1rem 2rem 3rem;
+  }
+
+  @include md {
+    padding: 1.5rem 3rem 4rem;
+  }
+
+  @include lg {
+    padding: 3rem 5rem 4rem;
+  }
+
+  @include xl {
+    padding: 3rem 6.5rem 4rem;
+  }
+}
+
+#backDonate .q-page-container {
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .add {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    z-index: 10;
+
+    @include xs {
+      right: 15px;
+      bottom: 15px;
+    }
+
+    @include sm {
+      right: 30px;
+      bottom: 30px;
+    }
+
+    @include md {
+      right: 30px;
+      bottom: 30px;
+    }
+
+    @include lg {
+      right: 50px;
+      bottom: 50px;
+    }
+
+    @include xl {
+      right: 50px;
+      bottom: 50px;
+    }
+    .q-btn__wrapper {
+      background: rgb(175, 130, 100, 0.5);
+    }
+  }
+}
+
+#backDonate #title {
+  align-self: start;
+
+  .q-item__section {
+    font-size: $s5;
+    font-weight: 700;
+  }
+  .q-item__section--side {
+    padding: 0;
+    min-width: 36px;
+  }
+}
+
+#backDonate .q-table__container {
+  width: 100%;
+}
+
+#backDonate.q-table--no-wrap th,
+#backDonate .q-table--no-wrap td {
+  white-space: normal;
+}
+
+#backDonate .q-table {
+  table-layout: fixed;
+  thead th {
+    font-size: $s3;
+    font-weight: bolder;
+  }
+  tbody td {
+    font-size: 0.95rem;
+    .q-btn {
+      width: 45px;
+    }
+  }
+  tbody .edit,
+  tbody .save {
+    font-size: 0.9rem;
+    .q-btn__wrapper {
+      color: $mumu01;
+      i {
+        color: $mumu01;
+      }
+    }
+    .q-focus-helper {
+      color: $mumu01;
+    }
+    .block {
+      color: $mumu01;
+    }
+    @include xs {
+      margin-bottom: $s0;
+    }
+
+    @include sm {
+      margin-bottom: $s0;
+    }
+
+    @include md {
+      margin-right: $s0;
+      margin-top: $s0;
+    }
+
+    @include lg {
+      margin-right: $s0;
+    }
+
+    @include xl {
+      margin-right: $s0;
+    }
+  }
+  tbody .del,
+  tbody .cancel {
+    font-size: 0.9rem;
+    .q-btn__wrapper {
+      color: $mu07;
+      i {
+        color: $mu07;
+      }
+    }
+    .q-focus-helper {
+      color: $mu07;
+    }
+    .block {
+      color: $mu07;
+    }
+    @include md {
+      margin-right: $s0;
+    }
+  }
+}
+
+#backDonate .q-table__grid-content {
+  @include xs {
+    .q-table__grid-item-title {
+      font-size: 0.9rem;
+      font-weight: bolder;
+    }
+    .q-table__grid-item-value {
+      font-size: $s3;
+    }
+  }
+}
+
+#donateCard {
+  width: 100%;
+  max-width: 600px;
+}
+
+#donateCard.q-card {
+  border-radius: 15px;
+  background: #fff;
+  position: relative;
+  .q-card__actions button:last-child {
+    .q-btn__wrapper {
+      color: $mu07;
+    }
+    .q-focus-helper {
+      color: $mu07;
+    }
+    .block {
+      color: $mu07;
+    }
+  }
+  .q-btn {
+    margin: 10px 6px 0;
+    width: 80px;
+    font-size: $s3;
+  }
+}
+
+#donateCard .q-card__section:first-child {
+  color: $mumu01;
+  font-size: $s4;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background: $mu03;
+  text-align: center;
+}
+
+#donateCard .q-card__section:last-child {
+  margin-top: 0;
+  background: $mu04;
+  padding: $s6;
+
+  .q-gutter-y-md {
+    margin-top: -5px;
+    padding: 0 5px;
+  }
+
+  .img-inputer {
+    width: 100%;
+    background: white;
+    border-radius: 28px;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 1%;
+  }
+}
+
+#donateCard .q-card__section:last-child {
+  margin-top: 0;
+  background: $mu04;
+}
+
+#donateCard .q-field--outlined .q-field__control {
+  padding: 0 20px;
+}
+
+#donateCard .q-field__control {
+  color: $mumu01;
+  background: white;
+}
+
+#donateCard .q-field--outlined .q-field__control:before {
+  border: none;
+}
+
+#donateCard .q-field--outlined .q-field__control:hover:before {
+  border-color: $mu05;
+}
+
+#donateCard .q-field--outlined .q-field__control::after {
+  border: none;
+}
+
+#donateCard .q-field--outlined.q-field--focused .q-field__control:after {
+  border: none;
+}
+
+/* backShare */
+#backShare {
+  justify-content: center;
+  @include xs {
+    padding: 1rem 2rem 3rem;
+  }
+
+  @include sm {
+    padding: 1rem 2rem 3rem;
+  }
+
+  @include md {
+    padding: 1.5rem 3rem 4rem;
+  }
+
+  @include lg {
+    padding: 3rem 5rem 4rem;
+  }
+
+  @include xl {
+    padding: 3rem 6.5rem 4rem;
+  }
+}
+
+#backShare .q-page-container {
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .add {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    z-index: 10;
+
+    @include xs {
+      right: 15px;
+      bottom: 15px;
+    }
+
+    @include sm {
+      right: 30px;
+      bottom: 30px;
+    }
+
+    @include md {
+      right: 30px;
+      bottom: 30px;
+    }
+
+    @include lg {
+      right: 50px;
+      bottom: 50px;
+    }
+
+    @include xl {
+      right: 50px;
+      bottom: 50px;
+    }
+    .q-btn__wrapper {
+      background: rgb(175, 130, 100, 0.5);
+    }
+  }
+}
+
+#backShare #title {
+  align-self: start;
+
+  .q-item__section {
+    font-size: $s5;
+    font-weight: 700;
+  }
+  .q-item__section--side {
+    padding: 0;
+    min-width: 36px;
+  }
+}
+
+#backShare .q-table__container {
+  width: 100%;
+}
+
+#backShare.q-table--no-wrap th,
+#backShare .q-table--no-wrap td {
+  white-space: normal;
+}
+
+#backShare .q-table {
+  table-layout: fixed;
+  thead th {
+    font-size: $s3;
+    font-weight: bolder;
+  }
+  tbody td {
+    font-size: 0.95rem;
+    .q-btn {
+      width: 45px;
+    }
+  }
+  tbody .edit,
+  tbody .save {
+    font-size: 0.9rem;
+    .q-btn__wrapper {
+      color: $mumu01;
+      i {
+        color: $mumu01;
+      }
+    }
+    .q-focus-helper {
+      color: $mumu01;
+    }
+    .block {
+      color: $mumu01;
+    }
+    @include xs {
+      margin-bottom: $s0;
+    }
+
+    @include sm {
+      margin-bottom: $s0;
+    }
+
+    @include md {
+      margin-right: $s0;
+      margin-top: $s0;
+    }
+
+    @include lg {
+      margin-right: $s0;
+    }
+
+    @include xl {
+      margin-right: $s0;
+    }
+  }
+  tbody .del,
+  tbody .cancel {
+    font-size: 0.9rem;
+    .q-btn__wrapper {
+      color: $mu07;
+      i {
+        color: $mu07;
+      }
+    }
+    .q-focus-helper {
+      color: $mu07;
+    }
+    .block {
+      color: $mu07;
+    }
+    @include md {
+      margin-right: $s0;
+    }
+  }
+}
+
+#backShare .q-table__grid-content {
+  @include xs {
+    .q-table__grid-item-title {
+      font-size: 0.9rem;
+      font-weight: bolder;
+    }
+    .q-table__grid-item-value {
+      font-size: $s3;
+    }
+  }
+}
+
+/* backMember */
+#backMember {
+  justify-content: center;
+  @include xs {
+    padding: 1rem 2rem 3rem;
+  }
+
+  @include sm {
+    padding: 1rem 2rem 3rem;
+  }
+
+  @include md {
+    padding: 1.5rem 3rem 4rem;
+  }
+
+  @include lg {
+    padding: 3rem 5rem 4rem;
+  }
+
+  @include xl {
+    padding: 3rem 6.5rem 4rem;
+  }
+}
+
+#backMember .q-page-container {
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .add {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    z-index: 10;
+
+    @include xs {
+      right: 15px;
+      bottom: 15px;
+    }
+
+    @include sm {
+      right: 30px;
+      bottom: 30px;
+    }
+
+    @include md {
+      right: 30px;
+      bottom: 30px;
+    }
+
+    @include lg {
+      right: 50px;
+      bottom: 50px;
+    }
+
+    @include xl {
+      right: 50px;
+      bottom: 50px;
+    }
+    .q-btn__wrapper {
+      background: rgb(175, 130, 100, 0.5);
+    }
+  }
+}
+
+#backMember #title {
+  align-self: start;
+
+  .q-item__section {
+    font-size: $s5;
+    font-weight: 700;
+  }
+  .q-item__section--side {
+    padding: 0;
+    min-width: 36px;
+  }
+}
+
+#backMember .q-table__container {
+  width: 100%;
+}
+
+#backMember.q-table--no-wrap th,
+#backMember .q-table--no-wrap td {
+  white-space: normal;
+}
+
+#backMember .q-table {
+  table-layout: fixed;
+  thead th {
+    font-size: $s3;
+    font-weight: bolder;
+  }
+  tbody td {
+    font-size: 0.95rem;
+    .q-btn {
+      width: 45px;
+    }
+  }
+  tbody .edit,
+  tbody .save {
+    font-size: 0.9rem;
+    .q-btn__wrapper {
+      color: $mumu01;
+      i {
+        color: $mumu01;
+      }
+    }
+    .q-focus-helper {
+      color: $mumu01;
+    }
+    .block {
+      color: $mumu01;
+    }
+    @include xs {
+      margin-bottom: $s0;
+    }
+
+    @include sm {
+      margin-bottom: $s0;
+    }
+
+    @include md {
+      margin-right: $s0;
+      margin-top: $s0;
+    }
+
+    @include lg {
+      margin-right: $s0;
+    }
+
+    @include xl {
+      margin-right: $s0;
+    }
+  }
+  tbody .del,
+  tbody .cancel {
+    font-size: 0.9rem;
+    .q-btn__wrapper {
+      color: $mu07;
+      i {
+        color: $mu07;
+      }
+    }
+    .q-focus-helper {
+      color: $mu07;
+    }
+    .block {
+      color: $mu07;
+    }
+    @include md {
+      margin-right: $s0;
+    }
+  }
+}
+
+#backMember .q-table__grid-content {
+  @include xs {
+    .q-table__grid-item-title {
+      font-size: 0.9rem;
+      font-weight: bolder;
+    }
+    .q-table__grid-item-value {
+      font-size: $s3;
+    }
+  }
+}
