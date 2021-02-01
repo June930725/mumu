@@ -23,7 +23,7 @@ module.exports = function (/* ctx */) {
       'ImgInputer',
       'pswipe',
       'VueSlickCarousel',
-      'AOS',
+      'aos',
       'analytics',
     ],
 
