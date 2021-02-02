@@ -423,7 +423,7 @@ export default {
               return sImg
             })
             .reverse()
-          console.log(this.shareImg)
+          // console.log(this.shareImg)
         } else {
           this.$q.notify({
             color: 'red-6',
@@ -433,7 +433,7 @@ export default {
         }
       })
       .catch(error => {
-        console.log(error)
+        // console.log(error)
         this.$q.notify({
           color: 'red-6',
           icon: 'fas fa-exclamation-circle',
