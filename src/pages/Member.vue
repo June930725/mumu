@@ -157,7 +157,7 @@
       <q-dialog v-model="shareCard">
         <q-card id="shareCard">
           <q-card-section>
-            <div text-overline>新增物資需求</div>
+            <div text-overline>新增募募分享</div>
           </q-card-section>
           <form @submit.prevent="add" @reset="addReset">
             <q-card-section class="row">
@@ -238,7 +238,7 @@
                   v-model="share.addImg"
                   icon="img"
                   bottom-text="點擊或拖曳更換圖片"
-                  placeholder="請選擇上傳圖片"
+                  placeholder="請選擇上傳物品實拍照"
                   :max-size="1024"
                   bottom-slots
                   exceedSizeText="檔案大小不能超過"
@@ -286,7 +286,7 @@ export default {
       },
       images: [],
       mem: {},
-      options: ['文具', '書籍', '玩具', '電器', '醫療', '其他'],
+      options: ['文具', '書籍', '玩具', '電器', '其他'],
       radios: [
         {
           label: '郵寄',
@@ -297,8 +297,8 @@ export default {
           value: '宅配'
         },
         {
-          label: '親送',
-          value: '親送'
+          label: '面交',
+          value: '面交'
         }
       ]
     }
