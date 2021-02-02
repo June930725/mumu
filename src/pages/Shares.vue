@@ -81,7 +81,7 @@ export default {
           this.shares = res.data.result
           this.shares.src =
             process.env.VUE_APP_API + '/shares/file/' + res.data.result.file
-          console.log(this.shares)
+          // console.log(this.shares)
         } else {
           this.$q.notify({
             color: 'red-6',
@@ -91,7 +91,7 @@ export default {
         }
       })
       .catch(error => {
-        console.log(error)
+        // console.log(error)
         this.$q.notify({
           color: 'red-6',
           icon: 'fas fa-exclamation-circle',
