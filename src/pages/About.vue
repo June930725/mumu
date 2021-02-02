@@ -46,7 +46,7 @@
     <q-page-container class="container">
       <q-timeline>
         <q-timeline-entry heading class="heading maintitle">
-          募募大事紀
+          募募的事
         </q-timeline-entry>
         <q-timeline-entry
           title="募募物資捐贈平台"
