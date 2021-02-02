@@ -478,7 +478,7 @@ export default {
           this.mem.modelEmail = this.mem.email
           this.mem.modelAddress = this.mem.address
 
-          console.log(this.mem)
+          // console.log(this.mem)
         } else {
           this.$q.notify({
             color: 'red-6',
@@ -488,7 +488,7 @@ export default {
         }
       })
       .catch(error => {
-        console.log(error)
+        // console.log(error)
         this.$q.notify({
           color: 'red-6',
           icon: 'fas fa-exclamation-circle',
