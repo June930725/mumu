@@ -323,7 +323,7 @@ export default {
             if (res.data.success) {
               // 修改狀態
               this.$store.commit('login', res.data.result)
-              console.log(res.data.result)
+              // console.log(res.data.result)
               if (this.checkbox === true) {
                 // 成功後清空表單 ( checkbox === true ) 記住帳號，只要清空密碼
                 this.log.password = ''
