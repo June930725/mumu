@@ -6,7 +6,7 @@
           <div class="intro">
             <span class="maintitle">服務理念</span>
             <p class="text-left">
-              募集一些願意分享的人<br />也募集一些需要幫助的人
+              募募希望募集一些願意分享的人<br />也募集一些需要幫助的人
             </p>
           </div>
         </div>
