@@ -79,7 +79,7 @@ export default {
           this.donation = res.data.result
           this.donation.src =
             process.env.VUE_APP_API + '/donates/file/' + res.data.result.file
-          console.log(this.donation)
+          // console.log(this.donation)
         } else {
           this.$q.notify({
             color: 'red-6',
@@ -89,7 +89,7 @@ export default {
         }
       })
       .catch(error => {
-        console.log(error)
+        // console.log(error)
         this.$q.notify({
           color: 'red-6',
           icon: 'fas fa-exclamation-circle',
