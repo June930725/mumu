@@ -301,7 +301,7 @@ export default {
               return member
             })
             .reverse()
-          console.log(this.members)
+          // console.log(this.members)
         } else {
           // alert(res.data.message)
           this.$q.notify({
