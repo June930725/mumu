@@ -510,7 +510,7 @@ export default {
             }
           })
           .catch(error => {
-            console.log(error)
+            // console.log(error)
             this.$q.notify({
               color: 'red-6',
               icon: 'fas fa-exclamation-circle',
