@@ -432,8 +432,8 @@ export default {
           value: '宅配'
         },
         {
-          label: '親送',
-          value: '親送'
+          label: '面交',
+          value: '面交'
         },
         {
           label: '其他（請於備註欄位說明）',
