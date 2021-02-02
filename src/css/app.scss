@@ -1338,11 +1338,13 @@ element.style {
   span {
     font-size: $s6;
     font-weight: 700;
+    letter-spacing: 1px;
   }
 
   p {
     margin-top: 15px;
     font-size: $s3;
+    letter-spacing: .5px;
   }
 }
 
