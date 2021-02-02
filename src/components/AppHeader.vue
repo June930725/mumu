@@ -71,7 +71,7 @@
       <!-- logo -->
       <q-toolbar>
         <q-toolbar-title align="center">
-          <a href="/">
+          <a @click.prevent="$router.push('/')">
             <!-- <img class="q-mt-lg" src="../assets/mumu-03.svg" width="220" /> -->
             <img class="q-mt-lg" src="../assets/mumu-07.svg" width="220" />
           </a>
