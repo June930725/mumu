@@ -417,7 +417,7 @@ export default {
           .then(res => {
             if (res.data.success) {
               this.member.order = res.data.result
-              console.log(this.member.order)
+              // console.log(this.member.order)
             } else {
               this.$q.notify({
                 color: 'red-6',
@@ -427,7 +427,7 @@ export default {
             }
           })
           .catch(error => {
-            console.log(error)
+            // console.log(error)
             this.$q.notify({
               color: 'red-6',
               icon: 'fas fa-exclamation-circle',
