@@ -280,9 +280,10 @@
                 <div class="col-12 order03 q-pb-sm">捐贈品項</div>
                 <div class="col-12">
                   <div
-                    v-for="(itemD, index) in member.orderDonate[
-                      member.orderDonate.length - 1
-                    ].donation"
+                    v-for="(itemD, index) in member.orderDonate.length > 0
+                      ? member.orderDonate[member.orderDonate.length - 1]
+                          .donation
+                      : 0"
                     :key="index"
                   >
                     <div class="col-12 detailDonation">
