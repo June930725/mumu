@@ -518,7 +518,7 @@ export default {
               return dImg
             })
             .reverse()
-          console.log(this.donateImg)
+          // console.log(this.donateImg)
         } else {
           this.$q.notify({
             color: 'red-6',
