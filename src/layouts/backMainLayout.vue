@@ -102,11 +102,7 @@ export default {
         .then(res => {
           // 如果登出成功
           if (res.data.success) {
-            this.$q.notify({
-              color: 'light-green',
-              icon: 'fas fa-check-circle',
-              message: '已登出'
-            })
+            alert('已登出')
             // 清除 vuex
             this.$store.commit('logout')
             // 導回首頁
@@ -122,12 +118,14 @@ export default {
           }
         })
         .catch(error => {
-        // console.log(error)
-        this.$q.notify({
-          color: 'red-6',
-          icon: 'fas fa-exclamation-circle',
-          message: error.response.data.message
+          // 如果回來的狀態碼不是200，直接 alert 錯誤訊息
+          this.$q.notify({
+            color: 'red-6',
+            icon: 'fas fa-exclamation-circle',
+            message: error.response.data.message
+          })
         })
     }
   }
+}
 </script>
