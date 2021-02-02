@@ -21,8 +21,8 @@
           <p>{{ '需求單位：' + donation.requester }}</p>
           <p>{{ '物資規格：' + donation.spec }}</p>
           <p>{{ '需求說明：' + donation.description }}</p>
-          <p>{{ '需求類別：' + donation.amount }}</p>
-          <p>{{ '物資規格：' + donation.category }}</p>
+          <p>{{ '需求數量：' + donation.amount }}</p>
+          <p>{{ '物資類別：' + donation.category }}</p>
           <q-separator class="q-my-lg" />
           <div class="text-center">
             <q-btn
