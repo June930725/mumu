@@ -218,13 +218,13 @@
                       <!-- 內文區 -->
                       <q-card-section>
                         <!-- 需求單位 -->
-                        <div class="required q-mt-xs">
+                        <div class="required q-mt-xs txt">
                           {{ dImg.requester }}
                         </div>
 
                         <div class="items-center">
                           <!-- 商品標題 -->
-                          <div class="title">
+                          <div class="title txt">
                             {{ dImg.item }}
                           </div>
                         </div>
@@ -262,13 +262,13 @@
                       <!-- 內文區 -->
                       <q-card-section>
                         <!-- 需求單位 -->
-                        <div class="required q-mt-xs">
+                        <div class="required q-mt-xs txt">
                           {{ dImg.requester }}
                         </div>
 
                         <div class="items-center">
                           <!-- 商品標題 -->
-                          <div class="title">
+                          <div class="title txt">
                             {{ dImg.item }}
                           </div>
                         </div>
@@ -306,13 +306,13 @@
                       <!-- 內文區 -->
                       <q-card-section>
                         <!-- 需求單位 -->
-                        <div class="required q-mt-xs">
+                        <div class="required q-mt-xs txt">
                           {{ dImg.requester }}
                         </div>
 
                         <div class="items-center">
                           <!-- 商品標題 -->
-                          <div class="title">
+                          <div class="title txt">
                             {{ dImg.item }}
                           </div>
                         </div>
@@ -350,13 +350,13 @@
                       <!-- 內文區 -->
                       <q-card-section>
                         <!-- 需求單位 -->
-                        <div class="required q-mt-xs">
+                        <div class="required q-mt-xs txt">
                           {{ dImg.requester }}
                         </div>
 
                         <div class="items-center">
                           <!-- 商品標題 -->
-                          <div class="title">
+                          <div class="title txt">
                             {{ dImg.item }}
                           </div>
                         </div>
@@ -394,11 +394,11 @@
                       <!-- 內文區 -->
                       <q-card-section>
                         <!-- 需求單位 -->
-                        <div class="required q-mt-xs">
+                        <div class="required q-mt-xs txt">
                           {{ dImg.requester }}
                         </div>
 
-                        <div class="items-center">
+                        <div class="items-center txt">
                           <!-- 商品標題 -->
                           <div class="title">
                             {{ dImg.item }}
@@ -438,13 +438,13 @@
                       <!-- 內文區 -->
                       <q-card-section>
                         <!-- 需求單位 -->
-                        <div class="required q-mt-xs">
+                        <div class="required q-mt-xs txt">
                           {{ dImg.requester }}
                         </div>
 
                         <div class="items-center">
                           <!-- 商品標題 -->
-                          <div class="title">
+                          <div class="title txt">
                             {{ dImg.item }}
                           </div>
                         </div>
@@ -503,7 +503,7 @@ export default {
     addBasket(dImg) {
       // 呼叫 mutations 修改狀態
       this.$store.commit('addBasket', dImg)
-      this.count++
+      // this.count++
     }
   },
   // 叫出資料庫的所有東西
