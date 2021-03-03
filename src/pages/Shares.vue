@@ -13,11 +13,11 @@
         <q-breadcrumbs-el :label="shares.item" />
       </q-breadcrumbs>
       <br />
-      <div class="row">
+      <div class="row items-center">
         <div class="col-12 col-lg-6 q-pa-md">
           <q-img :src="shares.src" />
         </div>
-        <div class="col-12 col-lg-6 q-px-lg q-py-lg">
+        <div class="col-12 col-lg-6 q-py-xs-lg q-px-xs-lg q-px-md-xl q-px-lg-md">
           <p>{{ shares.item }}</p>
 
           <p>{{ '類別：' + shares.category }}</p>
@@ -42,7 +42,7 @@
               class="no-wrap q-mt-sm q-mx-xs"
               color="mu03"
               to="/S_Cart"
-              disabled
+              disable
             >
               &nbsp;<i class="fa fa-comment-dots"></i>
               &nbsp;查看提出的需求&nbsp;
