@@ -101,7 +101,7 @@ const routes = [
         path: '',
         component: () => import('../pages/backIndex.vue'),
         meta: {
-          title: '後台管理系統 | ',
+          title: '後台管理系統 | 首頁',
           login: true,
           right: true
         }
