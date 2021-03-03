@@ -14,7 +14,7 @@
     <q-page-container class="counter container">
       <div class="row justify-center">
         <div
-          class=" row flex-column col-4 flex-md-row col-md-12 text-center justify-center "
+          class=" row flex-column col-4 flex-md-row col-md-12 text-center justify-center"
         >
           <div class="col-auto col-md-auto q-px-md q-pt-md q-pb-sm">
             <div class="count">

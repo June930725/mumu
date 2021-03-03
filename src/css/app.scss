@@ -340,27 +340,28 @@ element.style {
   .count {
     @include xs {
       width: 100px;
-      padding: 5 0px;
+      margin-left: -17px;
+      padding: 3px 0px;
     }
 
     @include sm {
       width: 100px;
-      padding: 5 0px;
+      padding: 5px 0px;
     }
 
     @include md {
       width: 120px;
-      padding: 5 0px;
+      padding: 5px 0px;
     }
 
     @include lg {
       width: 120px;
-      padding: 0 5px;
+      padding: 0px 5px;
     }
 
     @include xl {
       width: 120px;
-      padding: 0 5px;
+      padding: 0px 5px;
     }
 
     i {
