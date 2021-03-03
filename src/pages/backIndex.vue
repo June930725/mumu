@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center">
-    <img src="../assets/mumuback-05.svg" class="flex justify-center items-center w-40" />
+    <img src="../assets/mumuback.png" class="flex justify-center items-center w-50" />
     <router-view></router-view>
   </q-page>
 </template>
