@@ -216,64 +216,64 @@ export default {
         {
           requester: '',
           item: '',
-          src: 'https://picsum.photos/400/400/?random=3'
+          src: '@/assets/loading.jpg'
         },
         {
           requester: '',
           item: '',
-          src: 'https://picsum.photos/400/400/?random=3'
+          src: '@/assets/loading.jpg'
         },
         {
           requester: '',
           item: '',
-          src: 'https://picsum.photos/400/400/?random=3'
+          src: '@/assets/loading.jpg'
         },
         {
           requester: '',
           item: '',
-          src: 'https://picsum.photos/400/400/?random=3'
+          src: '@/assets/loading.jpg'
         },
         {
           requester: '',
           item: '',
-          src: 'https://picsum.photos/400/400/?random=3'
+          src: '@/assets/loading.jpg'
         },
         {
           requester: '',
           item: '',
-          src: 'https://picsum.photos/400/400/?random=3'
+          src: '@/assets/loading.jpg'
         }
       ],
       shareMain: [
         {
           item: '',
           amount: '',
-          src: 'https://picsum.photos/400/400/?random=3'
+          src: '@/assets/loading.jpg'
         },
         {
           item: '',
           amount: '',
-          src: 'https://picsum.photos/400/400/?random=3'
+          src: '@/assets/loading.jpg'
         },
         {
           item: '',
           amount: '',
-          src: 'https://picsum.photos/400/400/?random=3'
+          src: '@/assets/loading.jpg'
         },
         {
           item: '',
           amount: '',
-          src: 'https://picsum.photos/400/400/?random=3'
+          src: '@/assets/loading.jpg'
         },
         {
           item: '',
           amount: '',
-          src: 'https://picsum.photos/400/400/?random=3'
+          src: '@/assets/loading.jpg'
         },
         {
           item: '',
           amount: '',
-          src: 'https://picsum.photos/400/400/?random=3'
+          src: '@/assets/loading.jpg'
         }
       ],
 
