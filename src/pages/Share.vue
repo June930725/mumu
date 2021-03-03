@@ -1,7 +1,7 @@
 <template>
   <div id="share">
     <q-page-container class="container">
-      <q-btn class="basket" round icon="fa fa-comment-dots" to="/S_Cart" disabled>
+      <q-btn class="basket" round icon="fa fa-comment-dots" to="/S_Cart" disable>
         <p v-if="count === 0"></p>
         <q-badge v-else color="red" floating>{{ count }}</q-badge>
       </q-btn>
