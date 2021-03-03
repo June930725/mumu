@@ -195,7 +195,6 @@ element.style {
 
 /* container RWD */
 .container {
-  transition: 1s;
   @include xs {
     width: 80%;
     height: 100%;
@@ -233,7 +232,6 @@ element.style {
 }
 
 .containerM {
-  transition: 1s;
   @include xs {
     width: 90%;
     height: 100%;
@@ -302,7 +300,6 @@ element.style {
 
 /* Index.vue */
 #index .mainCarousel {
-  transition: 1s;
   padding-bottom: $s8 !important;
   @include xs {
     width: 100%;
@@ -422,7 +419,6 @@ element.style {
     color: rgba(220, 210, 195, 0.3);
 
     position: absolute;
-    transition: 0.5s;
     @include xs {
       font-size: 4rem;
     }
@@ -474,7 +470,6 @@ element.style {
     font-weight: 900;
     color: rgba(220, 210, 195, 0.3);
     position: absolute;
-    transition: 0.5s;
     @include xs {
       font-size: 4rem;
       right: 12% !important;
@@ -545,7 +540,6 @@ element.style {
     font-weight: 900;
     color: rgba(220, 210, 195, 0.3);
     position: absolute;
-    transition: 0.5s;
     @include xs {
       font-size: 4rem;
     }
@@ -702,7 +696,6 @@ element.style {
     font-weight: 900;
     color: rgba(220, 210, 195, 0.3);
     position: absolute;
-    transition: 0.5s;
     @include xs {
       font-size: 4rem;
       right: 12% !important;
@@ -846,7 +839,6 @@ element.style {
     font-weight: 900;
     color: rgba(220, 210, 195, 0.3);
     position: absolute;
-    transition: 0.5s;
     @include xs {
       font-size: 4rem;
     }
@@ -898,7 +890,6 @@ element.style {
     font-weight: 900;
     color: rgba(220, 210, 195, 0.3);
     position: absolute;
-    transition: 0.5s;
     @include xs {
       font-size: 4rem;
       right: 10% !important;
@@ -1021,7 +1012,6 @@ element.style {
   z-index: 10;
   right: 2.5%;
   bottom: 10%;
-  // background: $mumu01;
   background: $mu03;
   width: 50px;
   height: 50px;
@@ -1109,9 +1099,6 @@ element.style {
 
   .card_btn {
     width: 100%;
-    // .q-img__image {
-    //   border-radius: 5px;
-    // }
     .q-card__section {
       width: 100%;
     }
@@ -1150,7 +1137,6 @@ element.style {
     color: $mumu02;
   }
   .col-12:first-child {
-    // border: $mu03 3px solid;
     text-align: center;
     .q-img {
       max-width: 400px;
@@ -1162,7 +1148,6 @@ element.style {
     }
   }
   .col-12:last-child {
-    // border: $mu03 3px solid;
     p:nth-child(1) {
       font-size: $s4;
       font-weight: 800;
@@ -1557,7 +1542,6 @@ element.style {
     height: 40px;
     position: fixed;
     z-index: 10;
-    transition: 1s;
 
     @include xs {
       right: 30px;
@@ -2039,7 +2023,6 @@ element.style {
   font-size: $s2;
   padding: 2px 0;
   letter-spacing: 0.25px;
-  // font-weight: 800;
   color: $mumu01;
 }
 
