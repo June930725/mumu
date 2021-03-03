@@ -527,6 +527,20 @@ element.style {
   margin-top: 0;
   padding-top: 0 !important;
   padding-bottom: $s1 !important;
+  .Dcard {
+    cursor: pointer;
+    .txt {
+      width: 100%;
+      padding-top: 5px;
+      margin: auto;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      box-sizing: border-box;
+    }
+  }
   .maintitle {
     font-weight: 900;
     color: rgba(220, 210, 195, 0.3);
@@ -636,10 +650,6 @@ element.style {
     }
   }
 
-  .Dcard {
-    cursor: pointer;
-  }
-
   .q-img {
     border: 10px solid white;
     background: white;
@@ -675,6 +685,19 @@ element.style {
   margin-top: 0;
   padding-top: 0 !important;
   padding-bottom: 10rem !important;
+  .Scard {
+    cursor: pointer;
+    .txt {
+      width: 100%;
+      padding-top: 5px;
+      margin: auto;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+    }
+  }
   .maintitle {
     font-weight: 900;
     color: rgba(220, 210, 195, 0.3);
@@ -787,10 +810,6 @@ element.style {
     .LG {
       display: block;
     }
-  }
-
-  .Dcard {
-    cursor: pointer;
   }
 
   .itemSM {
@@ -1060,6 +1079,17 @@ element.style {
     background: none;
     .q-card {
       background: none;
+      .txt {
+        width: 100%;
+        padding-top: 5px;
+        margin: auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        box-sizing: border-box;
+      }
       .q-card__section {
         padding-bottom: 0;
         .q-img {
@@ -1223,6 +1253,17 @@ element.style {
     background: none;
     .q-card {
       background: none;
+      .txt {
+        width: 100%;
+        padding-top: 5px;
+        margin: auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        box-sizing: border-box;
+      }
       .q-card__section {
         padding-bottom: 0;
       }
@@ -1344,7 +1385,7 @@ element.style {
   p {
     margin-top: 15px;
     font-size: $s3;
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
   }
 }
 
@@ -2255,7 +2296,7 @@ element.style {
 /* leftDrawer */
 #backMainLayout .q-item__section {
   font-size: $s3;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 .activelink {

@@ -112,7 +112,7 @@
           >
             <q-img :src="dMain.src" />
             <q-card-section class="q-pt-none q-pb-md">
-              <div class="text-center itemSM q-mt-sm">
+              <div class="text-center itemSM q-mt-sm txt">
                 {{ dMain.item }}
               </div>
             </q-card-section>
@@ -127,7 +127,7 @@
           >
             <q-img :src="dMain.src" />
             <q-card-section class="q-pt-none q-pb-md">
-              <div class="text-center itemSM q-mt-sm">
+              <div class="text-center itemSM q-mt-sm txt">
                 {{ dMain.item }}
               </div>
             </q-card-section>
@@ -142,7 +142,7 @@
           >
             <q-img :src="dMain.src" />
             <q-card-section class="q-pt-none q-pb-md">
-              <div class="text-center itemSM q-mt-sm">
+              <div class="text-center itemSM q-mt-sm txt">
                 {{ dMain.item }}
               </div>
             </q-card-section>
@@ -156,12 +156,12 @@
       <VueSlickCarousel v-bind="settingsSM" class="SM">
         <div v-for="(sMain, index) in shareMain" :key="index">
           <q-card
-            class="Dcard q-ma-xs"
+            class="Scard q-ma-xs"
             @click="$router.push('/Shares/' + sMain._id)"
           >
             <q-img :src="sMain.src" />
             <q-card-section class="q-pt-none q-pb-sm">
-              <div class="text-center itemSM q-mt-sm">
+              <div class="text-center itemSM q-mt-sm txt">
                 {{ sMain.item }}
               </div>
             </q-card-section>
@@ -171,12 +171,12 @@
       <VueSlickCarousel v-bind="settingsMD" class="MD">
         <div v-for="(sMain, index) in shareMain" :key="index">
           <q-card
-            class="Dcard q-ma-xs"
+            class="Scard q-ma-xs"
             @click="$router.push('/Shares/' + sMain._id)"
           >
             <q-img :src="sMain.src" />
             <q-card-section class="q-pt-none q-pb-sm">
-              <div class="text-center itemSM q-mt-sm">
+              <div class="text-center itemSM q-mt-sm txt">
                 {{ sMain.item }}
               </div>
             </q-card-section>
@@ -186,12 +186,12 @@
       <VueSlickCarousel v-bind="settingsLG" class="LG">
         <div v-for="(sMain, index) in shareMain" :key="index">
           <q-card
-            class="Dcard q-ma-xs"
+            class="Scard q-ma-xs"
             @click="$router.push('/Shares/' + sMain._id)"
           >
             <q-img :src="sMain.src" />
             <q-card-section class="q-pt-none q-pb-sm">
-              <div class="text-center itemSM q-mt-sm">
+              <div class="text-center itemSM q-mt-sm txt">
                 {{ sMain.item }}
               </div>
             </q-card-section>

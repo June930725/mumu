@@ -174,13 +174,13 @@
                       <!-- 內文區 -->
                       <q-card-section>
                         <!-- 需求單位 -->
-                        <div class="required q-mt-xs">
+                        <div class="required q-mt-xs txt">
                           {{ dImg.requester }}
                         </div>
 
                         <div class="items-center">
                           <!-- 商品標題 -->
-                          <div class="title">
+                          <div class="title txt">
                             {{ dImg.item }}
                           </div>
                         </div>

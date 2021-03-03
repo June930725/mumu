@@ -154,7 +154,7 @@
                       <q-card-section>
                         <div class="items-center">
                           <!-- 商品標題 -->
-                          <div class="title">
+                          <div class="title txt">
                             {{ sImg.item }}
                           </div>
                         </div>
