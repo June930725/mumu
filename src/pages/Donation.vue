@@ -12,11 +12,11 @@
         <q-breadcrumbs-el :label="donation.item" />
       </q-breadcrumbs>
       <br />
-      <div class="row">
+      <div class="row items-center">
         <div class="col-12 col-lg-6 q-pa-md">
           <q-img :src="donation.src" />
         </div>
-        <div class="col-12 col-lg-6 q-px-lg q-py-xl">
+        <div class="col-12 col-lg-6 q-py-xs-lg q-px-xs-lg q-px-md-xl q-px-lg-md">
           <p>{{ donation.item }}</p>
           <p>{{ '需求單位：' + donation.requester }}</p>
           <p>{{ '物資規格：' + donation.spec }}</p>

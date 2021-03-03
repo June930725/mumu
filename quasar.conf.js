@@ -91,6 +91,7 @@ module.exports = function (/* ctx */) {
 
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-framework
     framework: {
+      cssAddon: true,
       iconSet: 'material-icons', // Quasar icon set
       lang: 'zh-hant', // Quasar language pack
       config: {
