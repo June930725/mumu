@@ -25,11 +25,12 @@ jobs:
         # 步驟設定
         env:
           VUE_APP_API: ${{ secrets.VUE_APP_API }}
+          GITHUB_TOKEN : ${{ secrets.GITHUB_TOKEN }}
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           # 部署到 gh-pages 分支
           branch: gh-pages
           # 編譯後要上傳的資料夾
-          folder: public
+          folder: dist/spa
           single-commit: true
