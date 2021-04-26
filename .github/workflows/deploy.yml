@@ -33,4 +33,3 @@ jobs:
           branch: gh-pages
           # 編譯後要上傳的資料夾
           folder: dist/spa
-          single-commit: true
